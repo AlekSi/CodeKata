@@ -1,0 +1,21 @@
+Code Kata One - Supermarket Pricing
+http://codekata.pragprog.com/2007/01/code_kata_one_s.html
+
+There is no code, just my answers.
+
+> does fractional money exist?
+Yes, although they are not very common in case of shops.
+
+> when (if ever) does rounding take place?
+At the very end, when printing price tag.
+
+> how do you keep an audit trail of pricing decisions (and do you need to)?
+Do I need? I don't, but it may be a requirement. :)
+
+> are costs and prices the same class of thing?
+No idea what does this mean.
+
+> if a shelf of 100 cans is priced using "buy two, get one free", how do you value the stock?
+See Ruby/Strategy/free.rb.
+
+Is it a good example for Strategy design pattern?
