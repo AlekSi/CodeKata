@@ -7,10 +7,10 @@ exports.chop = (value, array) ->
         middle_value = array[middle_index]
 
         if middle_value == value
-          return middle_index
+            return middle_index
         else if middle_value < value
-          left_index  = middle_index + 1
+            left_index  = middle_index + 1
         else
-          right_index = middle_index - 1
+            right_index = middle_index - 1
 
     return -1
