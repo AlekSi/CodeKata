@@ -3,7 +3,6 @@
 require 'test/unit'
 
 class ChopTest < Test::Unit::TestCase
-
   def test_chops
     for implementation in Dir.glob('chop*.rb') do
       puts implementation
@@ -35,5 +34,4 @@ class ChopTest < Test::Unit::TestCase
     assert_equal(-1, chop(6, [1, 3, 5, 7]))
     assert_equal(-1, chop(8, [1, 3, 5, 7]))
   end
-
 end

@@ -1,3 +1,5 @@
+#!/usr/bin/env coffee
+
 assert = require 'assert'
 
 do_chop = (chop) ->

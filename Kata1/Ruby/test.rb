@@ -3,7 +3,6 @@
 require 'test/unit'
 
 class TestPriceStrategy < Test::Unit::TestCase
-
   def test_simple
     require 'Strategy/simple.rb'
     assert_equal 15, SimplePriceStrategy.new.value(5, 3)
@@ -22,5 +21,4 @@ class TestPriceStrategy < Test::Unit::TestCase
     assert_equal 20, strategy.value(5, 5)
     assert_equal 20, strategy.value(5, 6)
   end
-
 end

@@ -8,10 +8,9 @@ class EachXIsFreePriceStrategy < PriceStrategy
   def value(price, number)
     case number
       when 0...@each_free
-        return price*number
+        return price * number
       else
-        return price*(@each_free - 1) + value(price, number - @each_free)
+        return price * (@each_free - 1) + value(price, number - @each_free)
     end
   end
-
 end
